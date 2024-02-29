@@ -8,7 +8,7 @@ $X_n = \sum\limits^{n-1}_{i=2} \frac{n}{i} - \lfloor \frac{n}{i} \rfloor$.
 
 The sums are relatively close to each other in terms of the x index, so the slope of the sums can be subtracted from the sums to create a new x axis representing average sum per integer. It is calculated as
 
-$\frac{1}{a} \sum\limits^N_{i=2} X_i$,
+$\frac{1}{a} \sum\limits^N_{i=3} X_i$,
 
 where a is a total number of additions to all sums combined, for each i. The resulting slope is therefore the average remainder. 
 
