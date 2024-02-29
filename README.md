@@ -2,7 +2,7 @@
 
 This program calculates sums of all remainders of integers divided by integers smaller than them. This is calculated up to N, such that for all integers the sum is plotted with prime numbers being marked with a red dot and composite numbers with a blue dot.
 
-The summation for each integer from 2 to N works as:
+The summation for each integer from 3 to N works as:
 
 $X_N = \sum\limits^{N-1}_{i=2} \frac{N}{i} - \lfloor \frac{N}{i} \rfloor$.
 
@@ -20,7 +20,7 @@ $X_5 = (\frac{5}{2} - 2) + (\frac{5}{3} - 1) + (\frac{5}{4} - 1) \\
 
 ## Running the code ##
 
-This program takes two command line arguments - number of integers to sum, and whether or not to normalize the plot by the slope. It also prints the slope for all numbers, primes only, and for comparison with $\pi - e$ (~0.423) and the difference between the slope for primes and the $\pi - e$ difference, which the slope for primes gets very close to. 
+This program takes two command line arguments - number of integers to sum, and whether or not to normalize the plot by the slope. It also prints the slope for all numbers, primes only, and for comparison $\pi - e$ (~0.423) and the difference between the slope for primes and the $\pi - e$ difference, which the slope for primes gets very close to. 
 
 To run the program, write
 
