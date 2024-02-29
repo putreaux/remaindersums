@@ -4,7 +4,7 @@ This program calculates sums of all remainders of integers divided by integers s
 
 The summation for each integer from 2 to N works as:
 
-$X_N = \sum\limits^N_{i=2} \frac{N}{i} - \lfloor \frac{N}{i} \rfloor$.
+$X_N = \sum\limits^{N-1}_{i=2} \frac{N}{i} - \lfloor \frac{N}{i} \rfloor$.
 
 The sums are relatively close to each other in terms of the x index, so the slope of the sums can be subtracted from the sums to create a new x axis representing average sum per integer. It is calculated as
 
