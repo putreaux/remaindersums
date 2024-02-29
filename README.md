@@ -2,9 +2,9 @@
 
 This program calculates sums of all remainders of integers divided by integers smaller than them. This is calculated up to N, such that for all integers the sum is plotted with prime numbers being marked with a red dot and composite numbers with a blue dot.
 
-The summation for each integer from 3 to N works as:
+The summation for each integer $n$ from 3 to N works as:
 
-$X_N = \sum\limits^{N-1}_{i=2} \frac{N}{i} - \lfloor \frac{N}{i} \rfloor$.
+$X_n = \sum\limits^{n-1}_{i=2} \frac{n}{i} - \lfloor \frac{n}{i} \rfloor$.
 
 The sums are relatively close to each other in terms of the x index, so the slope of the sums can be subtracted from the sums to create a new x axis representing average sum per integer. It is calculated as
 
