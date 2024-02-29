@@ -20,4 +20,10 @@ $X_5 = (\frac{5}{2} - 2) + (\frac{5}{3} - 1) + (\frac{5}{4} - 1) \\
 
 ## Running the code ##
 
+This program takes two command line arguments - number of integers to sum, and whether or not to normalize the plot by the slope. 
+
+`python remaindersums.py 100 0`,
+
+which produces a following plot:
+
 
