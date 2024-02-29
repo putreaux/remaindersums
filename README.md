@@ -15,8 +15,7 @@ where a is a total number of additions to all sums combined, for each i. The res
 
 For example, summing the remainders for number 5 goes like this: 
 
-$X_5 = (\frac{5}{2} - 2) + (\frac{5}{3} - 1) + (\frac{5}{4} - 1)$
-$ ~1.41666...$
+$X_5 = (\frac{5}{2} - 2) + (\frac{5}{3} - 1) + (\frac{5}{4} - 1) ~1.41666...$
 
 ## Running the code ##
 
